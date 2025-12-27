@@ -10,7 +10,7 @@ const Footer = () => {
       {/* ===================================================================
           Main Footer Section with Blue Background
           =================================================================== */}
-      <div className="w-full py-12 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: '#5b7aa8' }}>
+      <div className="w-full py-12 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: '#18306E' }}>
         <div className="max-w-[1440px] mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
             
@@ -145,7 +145,7 @@ const Footer = () => {
       {/* ===================================================================
           Copyright Section with Dark Navy Background
           =================================================================== */}
-      <div className="w-full py-4 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: '#1a2942' }}>
+      <div className="w-full py-4 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: '#111D3A' }}>
         <div className="max-w-[1440px] mx-auto">
           <p className="text-white text-center text-xs sm:text-sm">
             © 2025 CPI MANAGEMENT AND TECHNOLOGY. All rights reserved. Privacy Policy

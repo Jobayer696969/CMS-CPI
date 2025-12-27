@@ -63,11 +63,11 @@ const HeroSection = () => {
 
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-7 w-full sm:w-auto px-4 sm:px-0">
-          <button className="bg-blue-600 hover:bg-blue-700 hover:-translate-y-1 text-white font-semibold px-6 sm:px-8 py-3 rounded-md shadow-lg transition-all duration-300 w-full sm:w-auto">
+          <button className="bg-blue-800 hover:bg-blue-800 hover:-translate-y-1 text-yellow-400 font-semibold px-6 sm:px-8 py-3 rounded-md shadow-lg transition-all duration-300 w-full sm:w-auto">
             Admission now
           </button>
 
-          <button className="bg-[#FDDB24] hover:bg-yellow-500 hover:-translate-y-1 text-[#0A2463] font-semibold px-6 sm:px-8 py-3 rounded-md shadow-lg transition-all duration-300 w-full sm:w-auto">
+          <button className="bg-yellow-400 hover:bg-yellow-400 hover:-translate-y-1 text-[#0A2463] font-semibold px-6 sm:px-8 py-3 rounded-md shadow-lg transition-all duration-300 w-full sm:w-auto">
             Contact us
           </button>
         </div>
