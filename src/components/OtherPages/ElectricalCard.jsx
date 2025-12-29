@@ -4,7 +4,7 @@
 const syllabusData = [
   {
     year: "1st Year",
-    image: "/Electrical img/Electrical1.jpg",
+    image: "/images/Electrical img/Electrical1.jpg",
     points: [
       "Basic Electricity & Magnetism: Understanding voltage, current, resistance, and magnetic circuits.",
       "Engineering Drawing: Learning to read and create electrical circuit symbols and schematics.",
@@ -14,7 +14,7 @@ const syllabusData = [
   },
   {
     year: "2nd Year",
-    image: "/Electrical img/Electrical2.jpg",
+    image: "/images/Electrical img/Electrical2.jpg",
     points: [
       "Electrical Circuits (AC/DC): Analyzing complex networks using Kirchhoff’s laws and theorems.",
       "Electrical Machines - I: Studying the construction and working of DC motors and transformers.",
@@ -24,7 +24,7 @@ const syllabusData = [
   },
   {
     year: "3rd Year",
-    image: "/Electrical img/Electrical3.jpg",
+    image: "/images/Electrical img/Electrical3.jpg",
     points: [
       "Power Generation & Transmission: How electricity is produced in plants and sent over long distances.",
       "Electrical Machines - II: Advanced study of Induction motors and Synchronous machines.",
@@ -34,7 +34,7 @@ const syllabusData = [
   },
   {
     year: "4th Year",
-    image: "/Electrical img/Electrical4.jpg",
+    image: "/images/Electrical img/Electrical4.jpg",
     points: [
       "Switchgear & Protection: Learning about circuit breakers, fuses, and protecting the grid from faults.",
       "Industrial Automation (PLC & SCADA): Programming automated systems used in modern factories.",
@@ -54,35 +54,35 @@ const teachers = [
     degree: "B.sc. in EEE (DUET)",
     dept: "Electrical Department",
     highlight: true,
-    image: "Electrical img/Habib.png",
+    image: "/images/Electrical img/Habib.png",
   },
   {
     name: "Rasedul Islam Rasel",
     role: "Instructor",
     degree: "B.Sc. in EEE (RUET)",
     dept: "Electrical Department",
-    image: "Electrical img/Rasel.png",
+    image: "/images/Electrical img/Rasel.png",
   },
   {
     name: "Md. Mehedi Hasan",
     role: "Instructor",
     degree: "B.Sc. in EEE (CUET)",
     dept: "Electrical Department",
-    image: "Electrical img/Mehedi.jpg",
+    image: "/images/Electrical img/Mehedi.jpg",
   },
   {
     name: "Md. Monsur Ali",
     role: "Instructor",
     degree: "B.Sc. in EEE (DUET)",
     dept: "Electrical Department",
-    image: "Electrical img/Monsur.jpg",
+    image: "/images/Electrical img/Monsur.jpg",
   },
   {
     name: "Md. Shakil Hossain",
     role: "Instructor",
     degree: "B.Sc. in EEE (BUET)",
     dept: "Electrical Department",
-    image: "Electrical img/Shakil.jpg",
+    image: "/images/Electrical img/Shakil.jpg",
   },
 ];
 

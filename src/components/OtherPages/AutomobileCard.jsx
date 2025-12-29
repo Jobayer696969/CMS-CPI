@@ -4,7 +4,7 @@
 const syllabusData = [
   {
     year: "1st Year",
-    image: "/Automobile img/Automobile1.jpg",
+    image: "/images/Automobile img/Automobile1.jpg",
     points: [
       "Technical Drawing: Learning to read and draw automotive components and assemblies.",
       "Basic Workshop Practice: Hands-on training in smithy, welding, and metal fitting.",
@@ -14,7 +14,7 @@ const syllabusData = [
   },
   {
     year: "2nd Year",
-    image: "/Automobile img/Automobile2.jpg",
+    image: "/images/Automobile img/Automobile2.jpg",
     points: [
       "Internal Combustion (IC) Engines: Detailed study of 2-stroke and 4-stroke petrol and diesel engines.",
       "Chassis & Body Engineering: Understanding the structural frame, suspension, and steering systems.",
@@ -24,7 +24,7 @@ const syllabusData = [
   },
   {
     year: "3rd Year",
-    image: "/Automobile img/Automobile3.jpg",
+    image: "/images/Automobile img/Automobile3.jpg",
     points: [
       "Transmission Systems: Learning about clutches, gearboxes, propeller shafts, and differentials.",
       "Automotive Electricals: Studying batteries, alternators, ignition systems, and lighting.",
@@ -34,7 +34,7 @@ const syllabusData = [
   },
   {
     year: "4th Year",
-    image: "/Automobile img/Automobile4.jpg",
+    image: "/images/Automobile img/Automobile4.jpg",
     points: [
       "Electric & Hybrid Vehicles: Exploring battery technology, motors, and charging infrastructure for EVs.",
       "Automobile Engineering: Detailed study of vehicle systems, transmissions, and braking.",
@@ -53,31 +53,31 @@ const teachers = [
     role: "Department Head",
     degree: "B.Sc. in Automobile  Engineering (BAUET)",
     highlight: true,
-    image: "Automobile img/Saibuzzaman.jpg",
+    image: "/images/Automobile img/Saibuzzaman.jpg",
   },
   {
     name: "Mishu Rana",
     role: "Instructor",
     degree: "M.Sc. in Automobile (DUET)",
-    image: "Automobile img/Mishu.jpg",
+    image: "/images/Automobile img/Mishu.jpg",
   },
   {
     name: "Talha Bin Abdur Rahman",
     role: "Instructor",
     degree: "B.Sc. in Automobile Engineering (BUET)",
-    image: "Automobile img/Talha.jpg",
+    image: "/images/Automobile img/Talha.jpg",
   },
   {
     name: "Md. Towhiddjjaman",
     role: "Instructor",
     degree: "B.Sc. in Automobile Engineering (CUET)",
-        image: "Automobile img/Towhiddjjaman.png",
+        image: "/images/Automobile img/Towhiddjjaman.png",
   },
   {
     name: "Sayeda Farjana Yasmin",
     role: "Instructor",
     degree: "B.Sc. in Automobile Engineering (RUET)",
-    image: "Automobile img/Yasmin.jpg",
+    image: "/images/Automobile img/Yasmin.jpg",
   },
 ];
 

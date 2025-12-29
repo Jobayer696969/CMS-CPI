@@ -4,7 +4,7 @@
 const syllabusData = [
   {
     year: "1st Year",
-    image: "/Computer/Computer1.jpg",
+    image: "/images/Computer img/Computer1.jpg",
     points: [
       "Fundamentals of Computer & ICT",
       "Programming Language",
@@ -14,7 +14,7 @@ const syllabusData = [
   },
   {
     year: "2nd Year",
-    image: "/Computer/Computer2.jpg",
+    image: "/images/Computer img/Computer2.jpg",
     points: [
       "Data Structures & Algorithms",
       "Database Management System (DBMS)",
@@ -24,7 +24,7 @@ const syllabusData = [
   },
   {
     year: "3rd Year",
-    image: "/Computer/Computer3.jpg",
+    image: "/images/Computer img/Computer3.jpg",
     points: [
       "Operating Systems",
       "Computer Networks",
@@ -34,7 +34,7 @@ const syllabusData = [
   },
   {
     year: "4th Year",
-    image: "/Computer/Computer4.jpg",
+    image: "/images/Computer img/Computer4.jpg",
     points: [
       "Artificial Intelligence & Machine Learning (Basics)",
       "Data Science & Big Data Analytics",
@@ -54,35 +54,35 @@ const teachers = [
     degree: "MSC from NSU in",
     dept: "CSE Department.",
     highlight: true,
-    image: "Computer/Farzana.jpg",
+    image: "/images/Computer img/Farzana.jpg",
   },
   {
     name: "Muhammad Shahiyar Hossen",
     role: "Instructor",
     degree: "BSc from BUBT in",
     dept: "CSE Department.",
-    image: "Computer/Shahriar.jpg",
+    image: "/images/Computer img/Shahriar.jpg",
   },
   {
     name: "Zakia Sultana Tanzil",
     role: "Instructor",
     degree: "BSc from AUST in",
     dept: "CSE Department.",
-    image: "Computer/Zakia.jpg",
+    image: "/images/Computer img/Zakia.jpg",
   },
   {
     name: "Mahfuza Sultana",
     role: "Instructor",
     degree: "BSc from BUET in",
     dept: "CSE Department.",
-    image: "Computer/Mahfuza.jpg",
+    image: "/images/Computer img/Mahfuza.png",
   },
   {
     name: "Tahmina Tahrim Esty",
     role: "Instructor",
     degree: "BSc from JU in",
     dept: "CSE Department.",
-    image: "Computer/Esty.jpg",
+    image: "/images/Computer img/Esty.jpg",
   },
 ];
 

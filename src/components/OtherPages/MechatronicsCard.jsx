@@ -4,7 +4,7 @@
 const syllabusData = [
   {
     year: "1st Year",
-    image: "/Mechatronics img/Mechatronics1.jpg",
+    image: "/images/Mechatronics img/Mechatronics1.jpg",
     points: [
       "Engineering Graphics & CAD: Learning to design parts and assemblies using computer software.",
       "Electrical & Electronics Fundamentals: Understanding the basics of circuits, components, and soldering.",
@@ -14,7 +14,7 @@ const syllabusData = [
   },
   {
     year: "2nd Year",
-    image: "/Mechatronics img/Mechatronics2.jpg",
+    image: "/images/Mechatronics img/Mechatronics2.jpg",
     points: [
       "Digital Electronics: Studying logic gates, flip-flops, and integrated circuits.",
       "Sensors & Instrumentation: Learning how machines sense the world (proximity, temperature, and light sensors).",
@@ -24,7 +24,7 @@ const syllabusData = [
   },
   {
     year: "3rd Year",
-    image: "/Mechatronics img/Mechatronics3.jpg",
+    image: "/images/Mechatronics img/Mechatronics3.jpg",
     points: [
       "Microcontrollers (Arduino/PIC/ARM): Programming the brains that control mechatronic devices.",
       "Robotics & Kinematics: Studying robotic arm movements, degrees of freedom, and end-effectors.",
@@ -34,7 +34,7 @@ const syllabusData = [
   },
   {
     year: "4th Year",
-    image: "/Mechatronics img/Mechatronics4.jpg",
+    image: "/images/Mechatronics img/Mechatronics4.jpg",
     points: [
       "Power Electronics: Managing the high voltage needed to drive industrial motors from low-voltage signals.",
       "Automobile Engineering: Detailed study of vehicle systems, transmissions, and braking.",
@@ -53,31 +53,31 @@ const teachers = [
     role: "Department Head",
     degree: "B.Sc. in Mechatronics  Engineering (BAUET)",
     highlight: true,
-    image: "Mechatronics img/Saibuzzaman.jpg",
+    image: "/images/Mechatronics img/Saibuzzaman.jpg",
   },
   {
     name: "Mishu Rana",
     role: "Instructor",
     degree: "M.Sc. in Mechatronics (DUET)",
-    image: "Mechatronics img/Mishu.jpg",
+    image: "/images/Mechatronics img/Mishu.jpg",
   },
   {
     name: "Md. Masud Rana",
     role: "Instructor",
     degree: "B.Sc. in Mechatronics Engineering (BUET)",
-    image: "Mechatronics img/Rana.jpg",
+    image: "/images/Mechatronics img/Rana.jpg",
   },
   {
     name: "Md. Mehedi Al Hasan Prodhan",
     role: "Instructor",
     degree: "B.Sc. in Mechatronics Engineering (CUET)",
-    image: "Mechatronics img/Prodhan.jpg",
+    image: "/images/Mechatronics img/Prodhan.jpg",
   },
   {
     name: "Md. Mostafizur Rahman",
     role: "Instructor",
     degree: "B.Sc. in Mechatronics Engineering (RUET)",
-    image: "Mechatronics img/Fizz.jpg",
+    image: "/images/Mechatronics img/Fizz.jpg",
   },
 ];
 

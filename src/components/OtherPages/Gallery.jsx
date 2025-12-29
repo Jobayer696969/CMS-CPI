@@ -2,7 +2,7 @@ const galleryData = [
       {
     title: "Achievements",
     images: [
-      "/Gallery img/Our NASA Boy-Sifat.jpg",
+      "/Gallery img/Our NASA Boy.jpg",
       "/Gallery img/Mr Increadable-Tariqul.jpg",
     ],
   },
@@ -66,10 +66,11 @@ const Gallery = () => {
                 className="mb-4 break-inside-avoid rounded-xl overflow-hidden bg-gray-800 shadow-lg hover:scale-[1.02] transition"
               >
                 <img
-                  src={img}
-                  alt={section.title}
-                  className="w-full h-auto object-cover"
-                />
+  src={encodeURI(`http://localhost:5173/images${img}`)}
+  alt=""
+  className="w-full"
+/>
+
               </div>
             ))}
           </div>

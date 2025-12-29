@@ -4,7 +4,7 @@
 const syllabusData = [
   {
     year: "1st Year",
-    image: "/Mechanical img/Mechanical1.jpg",
+    image: "/images/Mechanical img/Mechanical1.jpg",
     points: [
       "Engineering Graphics: Mastery of orthographic projections and 3D modeling fundamentals.",
       "Workshop Technology: Practical training in fitting, carpentry, and basic smithy.",
@@ -14,7 +14,7 @@ const syllabusData = [
   },
   {
     year: "2nd Year",
-    image: "/Mechanical img/Mechanical2.jpg",
+    image: "/images/Mechanical img/Mechanical2.jpg",
     points: [
       "Thermodynamics: Understanding heat transfer, energy cycles, and steam properties.",
       "Material Science & Metallurgy: Studying the internal structure and properties of metals and alloys.",
@@ -24,7 +24,7 @@ const syllabusData = [
   },
   {
     year: "3rd Year",
-    image: "/Mechanical img/Mechanical3.jpg",
+    image: "/images/Mechanical img/Mechanical3.jpg",
     points: [
       "Fluid Mechanics & Machinery: Studying the behavior of liquids and the operation of pumps and turbines.",
       "Theory of Machines: Analyzing the motion of links, cams, gears, and governors.",
@@ -34,7 +34,7 @@ const syllabusData = [
   },
   {
     year: "4th Year",
-    image: "/Mechanical img/Mechanical4.jpg",
+    image: "/images/Mechanical img/Mechanical4.jpg",
     points: [
       "CAD/CAM & CNC: Learning Computer-Aided Manufacturing and programming automated CNC machines.",
       "Automobile Engineering: Detailed study of vehicle systems, transmissions, and braking.",
@@ -53,31 +53,31 @@ const teachers = [
     role: "Department Head",
     degree: "B.Sc. in Mechanical Engineering (BAUET)",
     highlight: true,
-    image: "Mechanical img/Rupom.png",
+    image: "/images/Mechanical img/Rupom.png",
   },
   {
     name: "Md. Shohaib Hasan",
     role: "Instructor",
     degree: "M.Sc. in Physics (DU)",
-    image: "Mechanical img/Shohaib.jpg",
+    image: "/images/Mechanical img/Shohaib.jpg",
   },
   {
     name: "Md. Masud Rana",
     role: "Instructor",
     degree: "B.Sc. in Mechanical Engineering (BUET)",
-    image: "Mechanical img/Rana.jpg",
+    image: "/images/Mechanical img/Rana.jpg",
   },
   {
     name: "Md. Mehedi Al Hasan Prodhan",
     role: "Instructor",
     degree: "B.Sc. in Mechanical Engineering (CUET)",
-    image: "Mechanical img/Prodhan.jpg",
+    image: "/images/Mechanical img/Prodhan.jpg",
   },
   {
     name: "Md. Mostafizur Rahman",
     role: "Instructor",
     degree: "B.Sc. in Mechanical Engineering (RUET)",
-    image: "Mechanical img/Fizz.jpg",
+    image: "/images/Mechanical img/Fizz.jpg",
   },
 ];
 

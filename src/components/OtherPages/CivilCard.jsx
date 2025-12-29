@@ -4,7 +4,7 @@
 const syllabusData = [
   {
     year: "1st Year",
-      image: "/Civil img/Civil1.jpg",
+      image: "/images/Civil img/Civil1.jpg",
     points: [
       "Engineering Drawing: Learning the basics of manual drafting and geometric construction.",
       "Civil Engineering Materials: Studying the properties of brick, cement, timber, and stone.",
@@ -14,7 +14,7 @@ const syllabusData = [
   },
   {
     year: "2nd Year",
-          image: "/Civil img/Civil2.jpg",
+          image: "/images/Civil img/Civil2.jpg",
     points: [
       "Surveying: Mastering the use of leveling instruments, theodolites, and total stations.",
       "Mechanics of Structures: Analyzing stress, strain, and the internal forces in beams and columns.",
@@ -24,7 +24,7 @@ const syllabusData = [
   },
   {
     year: "3rd Year",
-          image: "/Civil img/Civil3.jpg",
+          image: "/images/Civil img/Civil3.jpg",
     points: [
       "Concrete Technology: Designing mix proportions and testing the strength of Reinforced Cement Concrete (RCC).",
       "Quantity Surveying & Estimating: Calculating the cost, materials, and labor required for a project.",
@@ -34,7 +34,7 @@ const syllabusData = [
   },
   {
     year: "4th Year",
-          image: "/Civil img/Civil4.jpg",
+          image: "/images/Civil img/Civil4.jpg",
     points: [
       "Artificial Intelligence & Machine Learning (Basics)",
       "Environmental Engineering: Studying water supply systems and sewage treatment plants.",
@@ -53,32 +53,32 @@ const teachers = [
     role: "Department Head",
     degree: "B.Sc. in CE (RUET) ",
     highlight: true,
-        image: "Civil img/Prince.png",
+        image: "/images/Civil img/Prince.png",
   },
   {
     name: "Engr. Md. Mahabub Alam",
     role: "Instructor",
     degree: "B.Sc. in CE (RUET) ",
-        image: "Civil img/Mahbub.png",
+        image: "/images/Civil img/Mahbub.png",
 
   },
   {
     name: "Md. Shahadot Hossain",
     role: "Instructor",
     degree: "B.Sc. (Engg) in CE (IUBAT) ",
-        image: "Civil img/Sahadot.png",
+        image: "/images/Civil img/Sahadot.png",
   },
   {
     name: "Md. Imran Khan",
     role: "Instructor",
     degree: "B.Sc. (Hons) in Mathematics (IU) ",
-        image: "Civil img/Emran.png",
+        image: "/images/Civil img/Emran.png",
   },
   {
     name: "Aly Amrin Jinnut",
     role: "Instructor",
     degree: "B.Sc. in CE ",
-        image: "Civil img/Amrin.png",
+        image: "/images/Civil img/Amrin.png",
   }
 
 ];

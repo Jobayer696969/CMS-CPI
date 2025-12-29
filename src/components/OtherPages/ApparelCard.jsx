@@ -4,7 +4,7 @@
 const syllabusData = [
   {
     year: "1st Year",
-    image: "/Textile img/Textile1.jpg",
+    image: "/images/Textile img/Textile1.jpg",
     points: [
       "Introduction to Textile Fibers: Studying the properties of natural fibers (cotton, silk, wool) and man-made fibers (polyester, nylon).",
       "Textile Chemistry - I: Learning the chemical composition of fibers and the basics of textile processing.",
@@ -14,7 +14,7 @@ const syllabusData = [
   },
   {
     year: "2nd Year",
-    image: "/Textile img/Textile2.jpg",
+    image: "/images/Textile img/Textile2.jpg",
     points: [
       "Yarn Manufacture (Spinning): Learning the process of cleaning, carding, and spinning raw fiber into yarn.",
       "Fabric Manufacture (Weaving): Understanding loom mechanisms and how warp and weft yarns are interlaced.",
@@ -24,7 +24,7 @@ const syllabusData = [
   },
   {
     year: "3rd Year",
-    image: "/Textile img/Textile3.jpg",
+    image: "/images/Textile img/Textile3.jpg",
     points: [
       "Dyeing & Printing Technology: Studying the application of colors and patterns to various types of fabrics.",
       "Knitting Technology: Understanding the mechanisms of circular and flat-bed knitting machines.",
@@ -34,7 +34,7 @@ const syllabusData = [
   },
   {
     year: "4th Year",
-    image: "/Textile img/Textile4.jpg",
+    image: "/images/Textile img/Textile4.jpg",
     points: [
       "Garment Manufacturing Technology: Learning the industrial process of pattern making, cutting, and sewing.",
       "Industrial Management & Quality Control: Managing labor productivity and ensuring fabrics meet international standards (like ISO).",
@@ -53,31 +53,31 @@ const teachers = [
     role: "Department Head",
     degree: "B.Sc. in Textile  Engineering (BAUET)",
     highlight: true,
-    image: "Textile img/Yasmin.jpg",
+    image: "/images/Textile img/Yasmin.jpg",
   },
   {
     name: "Engr. Md. Mahbub Prince",
     role: "Instructor",
     degree: "M.Sc. in Textile (DUET)",
-    image: "Textile img/Mahbub.jpg",
+    image: "/images/Textile img/Mahbub.jpg",
   },
   {
     name: "TMd. Imran Khan",
     role: "Instructor",
     degree: "B.Sc. in Textile Engineering (BUET)",
-    image: "Textile img/Imran.jpg",
+    image: "/images/Textile img/Imran.jpg",
   },
   {
     name: "Aly Amrin Jinnut",
     role: "Instructor",
     degree: "B.Sc. in Textile Engineering (CUET)",
-        image: "Textile img/Jinnut.jpg",
+        image: "/images/Textile img/Jinnut.jpg",
   },
   {
     name: "Md. Arifur Rahman Sarkar",
     role: "Instructor",
     degree: "B.Sc. in Textile Engineering (RUET)",
-    image: "Textile img/Arifur.jpg",
+    image: "/images/Textile img/Arifur.jpg",
   },
 ];
 
