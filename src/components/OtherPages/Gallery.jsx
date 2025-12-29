@@ -66,7 +66,7 @@ const Gallery = () => {
                 className="mb-4 break-inside-avoid rounded-xl overflow-hidden bg-gray-800 shadow-lg hover:scale-[1.02] transition"
               >
                 <img
-  src={encodeURI(`http://localhost:5173/images${img}`)}
+  src={`/images${img}`}
   alt=""
   className="w-full"
 />
