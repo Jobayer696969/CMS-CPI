@@ -1,70 +1,51 @@
-import React from 'react'
+import { Link } from "react-router-dom";
 
-const navbar = () => {
+const Navbar = () => {
+  const closeDrawer = () => {
+    const drawer = document.getElementById("nav-drawer");
+    if (drawer) drawer.checked = false;
+  };
+
   return (
-<div className="bg-[#18306E]">
-         {/* Full-width background */}
-      <div className="max-w-[1440px] mx-auto px-4"> {/* Centered container */}
-        
-        <div className="navbar text-white shadow-sm rounded-xl">
-          {/* Left */}
-          <div className="navbar-start">
-            <div className="dropdown">
-              <button 
-                tabIndex={0} 
-                className="btn btn-ghost lg:hidden"
-              >
-                <svg 
-                  xmlns="http://www.w3.org/2000/svg" 
-                  className="h-5 w-5" 
-                  fill="none" 
-                  viewBox="0 0 24 24" 
-                  stroke="currentColor"
-                >
-                  <path 
-                    strokeLinecap="round" 
-                    strokeLinejoin="round" 
-                    strokeWidth="2" 
-                    d="M4 6h16M4 12h8m-8 6h16" 
-                  />
-                </svg>
-              </button>
-
-              <ul
-                tabIndex={0}
-                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-10 mt-3 w-52 p-2 shadow"
-              >
-                  <li><a>Home</a></li>
-              <li><a>Technology</a></li>
-              <li><a>Gallery</a></li>
-              <li><a>Achievement</a></li>
-              <li><a>About us</a></li>
-              </ul>
+    <div className="bg-[#18306E] sticky top-0 z-50 shadow-md">
+      <div className="h-16 flex items-center gap-60 justify-between px-6 lg:px-12">
+        <div className="drawer drawer-end w-full">
+          <input id="nav-drawer" type="checkbox" className="drawer-toggle" />
+          <div className="drawer-content flex items-center justify-between w-full">
+            
+            <div className="flex items-center gap-70">
+              <Link to="/"><img py-5 src="/images/Logo.png" alt="Logo" className="h-13 w-auto" /></Link>
+              <Link to="/" className="hidden lg:block bg-[#FDDB24] text-[#18306E] font-bold px-6 py-2 rounded-xl">Home</Link>
             </div>
 
-            <img className='object-contain w-[105px] h-[57.96px]' src="/public/images/logo.png" alt="Cpi logo" />
-          </div>
-
-          {/* Center */}
-          <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal gap-8">
-              <li className=' rounded-xl hover:bg-[#FDDB24] hover:text-[#18306E] text-base font-bold'><a>Home</a></li>
-              <li className='rounded-xl hover:bg-[#FDDB24] hover:text-[#18306E] text-base font-bold'><a>Technology</a></li>
-              <li className='rounded-xl hover:bg-[#FDDB24] hover:text-[#18306E]  text-base font-bold'><a>Gallery</a></li>
-              <li className='rounded-xl hover:bg-[#FDDB24] hover:text-[#18306E] text-base font-bold'><a>Achievement</a></li>
-              <li className='rounded-xl hover:bg-[#FDDB24] hover:text-[#18306E] text-base font-bold'><a>About us</a></li>
+            <ul className="hidden lg:flex gap-4 font-bold">
+              <li><a href="/#technology-section" className="text-[#FDDB24] px-4 py-2 hover:bg-[#FDDB24] hover:text-[#18306E] rounded-xl transition">Technology</a></li>
+              <li><Link to="/gallery" className="text-[#FDDB24] px-4 py-2 hover:bg-[#FDDB24] hover:text-[#18306E] rounded-xl transition">Gallery</Link></li>
+              <li><a href="/#achievement-section" className="text-[#FDDB24] px-4 py-2 hover:bg-[#FDDB24] hover:text-[#18306E] rounded-xl transition">Achievement</a></li>
+              <li><a href="/#about-section" className="text-[#FDDB24] px-4 py-2 hover:bg-[#FDDB24] hover:text-[#18306E] rounded-xl transition">About Us</a></li>
             </ul>
+
+            <div className="flex items-center gap-4">
+              <button className="hidden lg:block bg-[#FDDB24] text-[#18306E] font-bold px-8 py-2 rounded-xl">Login</button>
+              <label htmlFor="nav-drawer" className="lg:hidden bg-[#FDDB24] text-[#18306E] p-2 rounded-lg cursor-pointer">☰</label>
+            </div>
           </div>
 
-          {/* Right */}
-          <div className="navbar-end">
-            <a className="btn bg-transparent text-white rounded-xl hover:bg-[#FDDB24] font-bold text-base ">Login</a>
+          <div className="drawer-side">
+            <label htmlFor="nav-drawer" className="drawer-overlay"></label>
+            <div className="w-72 min-h-full bg-[#18306E] text-white p-6 flex flex-col gap-6">
+              <img src="/images/Logo.png" alt="Logo" className="h-10" />
+              <Link to="/" onClick={closeDrawer}>Home</Link>
+              <a href="/#technology-section" onClick={closeDrawer}>Technology</a>
+              <Link to="/gallery" onClick={closeDrawer}>Gallery</Link>
+              <a href="/#achievement-section" onClick={closeDrawer}>Achievement</a>
+              <a href="/#about-section" onClick={closeDrawer}>About Us</a>
+            </div>
           </div>
         </div>
-
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default navbar
+export default Navbar;
